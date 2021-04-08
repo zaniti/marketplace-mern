@@ -1,0 +1,37 @@
+/* forms */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("1.jpg");
+  }
+  .form-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    padding: 2rem;
+    margin: 100px 0;
+    border: 0.1rem #000000 solid;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    background-color: #000000;
+  }
+  .form-container li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  input {
+    padding: 1rem;
+    border: 0.1rem #030303 solid;
+    border-radius: 0.5rem;
+  }
+
+
+  .gr {
+
+    text-decoration: bolder;
+  }
